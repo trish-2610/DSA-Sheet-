@@ -10,4 +10,4 @@ def twoSum(arr,target):
         else:
             right -= 1
     return -1 
-print(twoSum([1,2,4,9],3))
+print(twoSum([1,2,4,9],3)) ## calling funcionss
