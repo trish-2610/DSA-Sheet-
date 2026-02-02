@@ -9,4 +9,4 @@ def even_odd(arr):
         if left < right:
             arr[left],arr[right] = arr[right],arr[left]
     return arr
-print(even_odd([1,5,4,6,7,9,8,2]))
+print(even_odd([1,5,4,6,7,9,8,2])) 
