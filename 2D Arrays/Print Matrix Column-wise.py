@@ -11,3 +11,5 @@ for j in range(0,cols): ## column-wise (as column is fixed)
     for i in range(0,rows): ## row-wise
         print(matrix[i][j],end=" ")
     print()
+
+## Time complexity = O(n^2)
