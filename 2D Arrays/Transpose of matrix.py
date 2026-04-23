@@ -22,7 +22,7 @@
 ## TC = O(n x m)
 ## SC = O(1)
 
-## General approach (for any matrix)
+## General approach (for any matrix)   
 # Program to transpose a matrix using a nested loop
 
 matrix = [     
@@ -69,3 +69,9 @@ for i in range(cols):
         row.append(matrix[j][i])
     transpose.append(row)
 print(transpose)
+
+## Transpose (in place) -> square matrix
+n = len(matrix)
+for i in range(0,n):
+    for j in range(i+1,n):
+        matrix[i][j],matrix[j][i] = matrix[j][i],matrix[i][j]
