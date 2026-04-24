@@ -4,6 +4,7 @@ matrix = [
     [7, 8, 9]
 ]
 
+## variables
 rows = len(matrix)
 cols = len(matrix[0])
 even_count = 0
