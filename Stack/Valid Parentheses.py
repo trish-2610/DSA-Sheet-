@@ -14,3 +14,8 @@ def valid_parentheses(expr) -> bool:
                 stack.pop()
     return not stack
 print(valid_parentheses("])}"))
+
+## if stack is empty -> False
+## if stack is not empty -> True
+
+## not stack (if stack is empty) means [not False] = True
