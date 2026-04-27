@@ -19,3 +19,4 @@ print(valid_parentheses("])}"))
 ## if stack is not empty -> True
 
 ## not stack (if stack is empty) means [not False] = True
+## Don't get confused in these conditions 
