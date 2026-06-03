@@ -23,3 +23,5 @@ def first_last_occurrence(arr,target):
     return ans 
 
 print(first_last_occurrence([1,2,2,2,4,5],2))
+
+## checking changes
