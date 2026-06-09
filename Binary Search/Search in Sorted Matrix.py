@@ -16,7 +16,7 @@ matrix =[
     [2,4]
 ]
 for row in matrix: ## passing one row at a time ( as we can't whole matrix at once)
-    if search_sorted_matrix(row,1):
+    if search_sorted_matrix(row,4):
         print("Element found")
         break
 else:

@@ -1,12 +1,16 @@
-def bubble_sort(arr):
-    n = len(arr)
-    swaps_count = 0
-    for i in range(0,n):
-        for j in range(0,n-i-1):
-            if arr[j] > arr[j+1]:
-                ## swap
-                arr[j],arr[j+1]=arr[j+1],arr[j]
-                swaps_count += 1
-    return arr,swaps_count
-    
-print(bubble_sort([4,6,2,1,5]))
+matrix = [
+    [1 ,2 ,3],
+    [4 ,5 ,6],
+]
+
+rows = len(matrix)
+cols = len(matrix[0])
+
+## 2 X 3 -> 3 X 2
+transpose = []
+for i in range(cols):
+    row = []
+    for j in range(rows):
+        row.append(matrix[j][i])
+    transpose.append(row)
+print(transpose)
